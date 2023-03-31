@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura semántica</title>
+    <style>
+        header{
+            background-color: rgb(1, 153, 255);
+            width: 1000px;
+            height: 125px;
+            border-bottom: 2px solid black;
+        }
+        nav{
+            background-color: rgb(1, 200, 255);
+            width: 1000px;
+            height: 50px;
+            border-bottom: 2px solid black;
+        }
+        main{
+            background-color: rgb(1, 153, 255);
+            width: 1000px;
+            height: 600px;
+            border-bottom: 2px solid black;
+        }
+        footer{
+            background-color: rgb(1, 200, 255);
+            width: 1000px;
+            height: 50px;
+            padding-top: 0.5px;
+            border-top: 2px solid black;
+        }
+        a{
+            margin-right: 50px;
+        }
+        #a{
+            background-color: rgb(1, 153, 255);
+            width: 1000px;
+            height: 200px;
+            border-bottom: 2px solid black;
+        }
+        #b{
+            background-color: rgb(1, 200, 255);
+            width: 1000px;
+            height: 200px;
+            border-bottom: 2px solid black;
+        }
+        #c{
+            background-color: rgb(1, 153, 255);
+            width: 1000px;
+            height: 250px;
+            border-bottom: 2px solid black;
+        }
+        .titulos{
+            margin-top: 0;
+            margin-left: 50px;
+        }
+        table{
+            width: 80%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td, tr{
+            border: 1px solid black ;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header id="arriba">
+        <center>
+            <h1>HOJA DE VIDA</h1>
+        </center>
+    </header>
+    <nav>
+        <center>
+            <a href="">INICIO</a>
+            <a href="#a">DATOS PERSONALES</a>
+            <a href="#b">ESTUDIOS</a>
+            <a href="#c">REFERENCIAS</a>
+        </center>
+    </nav>
+    <main>
+        <section id="a">
+            <center>
+                <h2 class="titulos">DATOS PERSONALES</h2>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Teléfono</th>
+                        <th>Dirección</th>
+                    </tr>
+                    <tr>
+                        <td>Jorge Andrés</td>
+                        <td>Suárez Orozco</td>
+                        <td>3004673470</td>
+                        <td>Cll 76 # 89 c 58</td>
+                    </tr>
+                </table>
+            </center>
+            <a href="#arriba">Subir</a>
+        </section>
+        <section id="b">
+            <center>
+                <h2 class="titulos">ESTUDIOS</h2>
+                <table>
+                    <tr>
+                        <th>Institución</th>
+                        <th>Título</th>
+                        <th>Año</th>
+                    </tr>
+                    <tr>
+                        <td>Instituto Técnico Industrial Pascual Bravo</td>
+                        <td>Bachiller Técnico</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>Cesde</td>
+                        <td>Técnico Asistente en Desarrollo de Sotfware</td>
+                        <td>En curso</td>
+                    </tr>
+                </table>
+            </center>
+            <a href="#arriba">Subir</a>
+        </section>
+        <section id="c">
+            <center>
+                <h2 class="titulos">REFERENCIAS PERSONALES</h2>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Parentezco</th>
+                        <th>Teléfono</th>
+                    </tr>
+                    <tr>
+                        <td>Ayda Orozco Marin</td>
+                        <td>Mamá</td>
+                        <td>3146032815</td>
+                    </tr>
+                    <tr>
+                        <td>Manuela Suárez Orozco</td>
+                        <td>Hermana</td>
+                        <td>3218534231</td>
+                    </tr>
+                </table>
+            </center>
+            <a href="#arriba">Subir</a>
+        </section>
+    </main>
+    <footer>
+        <center>
+            <p>Hoja de vida Jorge Andrés Suárez Orozco - Derechos reservados</p>
+        </center>
+    </footer>  
+</body>
+</html>
